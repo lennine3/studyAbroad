@@ -3,9 +3,8 @@
 @include('web.layout.head')
 
 <body>
-    @yield('content')
     @include('web.layout.header')
-    123rrr
+    @yield('content')
     @include('web.layout.footer')
 </body>
 

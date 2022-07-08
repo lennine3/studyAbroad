@@ -12,5 +12,5 @@
     <link rel="stylesheet" href="{{ asset('public/web/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('public/web/css/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('public/web/css/bootstrap-datepicker3.min.css') }}">
-    
+
 </head>
