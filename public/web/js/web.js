@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.banner').not('.slick-initialized').slick({
         // centerMode: true,
-        lazyLoad: 'ondemand',
+        lazyLoad: 'progressive',
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
