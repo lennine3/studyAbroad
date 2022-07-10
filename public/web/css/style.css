@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300;400&family=Tai+Heritage+Pro&display=swap');
 body {
     width: 100%;
 }
 
-
-
-.slick-slide {
-    height: auto;
+.show-on-mobile {
+    display: none !important;
 }
 
-.slick-slide img {
-    max-width: 100%;
+.hide-on-mobile {
+    display: block !important;
 }
 
 * {
@@ -26,7 +24,7 @@ header {
     background: #546FE7;
 }
 
-img {
+.width-100 {
     width: 100%;
     height: auto;
 }
@@ -105,8 +103,64 @@ a.aj_btn:hover {
     cursor: pointer;
 }
 
-
+.section_mission{
+    height: 300px;
+}
+.section_mission_back{
+    padding-bottom: 3rem;
+    background-color: rgb(241, 196, 15);
+}
+.section_mission_contain{
+    width: 1250px;
+}
+.headline {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.head-title-paragraph {
+    width: 350;
+    top: 0px;
+    left: 0px;
+}
+.div-paragraph {
+    width: 350px;
+    top: 37.3641px;
+    left: 43.0831px;
+}
+.ladi-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.ladi-section {
+    margin: 0 auto;
+    position: relative;
+}
+#SHAPE15 {
+    text-align: center;
+    /* height: 91.1319px; */
+    top: 0px;
+    left: 94.5726px;
+}
+#SHAPE15 i{
+    color: #fff;
+}
 @media screen and (max-width:900px) {
+    .show-on-mobile {
+        display: block !important;
+    }
+
+    .hide-on-mobile {
+        display: none !important;
+    }
     .vnt-slide-home img {
         height: 320px;
         width: 100%;

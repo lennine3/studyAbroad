@@ -1,0 +1,128 @@
+.section-3 {
+    background-image: url(../images/prerogative/prerogative-bg.jpg);
+    background-color: var(--navi-dark);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+
+.section-3 h2 {
+    font-size: 3.7vw;
+}
+
+.section-3 h3 {
+    font-size: 3vw;
+    margin-bottom: 70px;
+}
+
+.section-3 .tab-wrapper {
+    position: relative;
+}
+
+.section-3 .tab-content {
+    margin-top: 15%;
+}
+
+.section-3 .tab-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 .tab-content [class^='icon-'],
+.section-3 .tab-content [class*=' icon-'] {
+    font-size: 100px;
+}
+
+.section-3 .tab-content h4 {
+    font-weight: 700;
+    font-size: 1.5vw;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section-3 .tab-content p {
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 1.6;
+}
+
+.section-3 .nav-pills {
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+}
+
+.section-3 .nav-item,
+.section-3 .nav-item .nav-link,
+.section-3 .nav-item .nav-link [class^='icon-'],
+.section-3 .nav-item .nav-link [class*=' icon-'] {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.section-3 .nav-item .nav-link [class^='icon-'],
+.section-3 .nav-item .nav-link [class*=' icon-'] {
+    font-size: 50px;
+}
+
+.section-3 .nav-item.hover .nav-link,
+.section-3 .nav-item .nav-link.active {
+    background: var(--navi-dark);
+    transform: scale(1.5);
+}
+
+.section-3 .nav-item.hover .nav-link [class^='icon-'],
+.section-3 .nav-item.hover .nav-link [class*=' icon-'],
+.section-3 .nav-item .nav-link.active [class^='icon-'],
+.section-3 .nav-item .nav-link.active [class*=' icon-'] {
+    color: white;
+}
+
+.section-3 .nav-item .nav-link {
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--navi);
+}
+
+.section-3 .nav-item .nav-link::after {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    inset: -5px;
+    z-index: -1;
+}
+
+
+.section-3 .nav-item .nav-link.active::after {
+    inset: -10px;
+    animation: none;
+}
+
+
+.section-3 .nav-item.hover .nav-link::after,
+.section-3 .nav-item .nav-link.active::after {
+    inset: -10px;
+}
+
+.section-3 .nav-item {
+    padding: 15px;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.section-3 .nav-item:first-child {
+    left: 0%
+}
+
+.section-3 .nav-item:last-child {
+    right: 0%
+}
+.section-3 .nav-item:nth-child(2) {
+    left: 30%;
+}
+.section-3 .nav-item:nth-child(3) {
+    right: 30%;
+}
+

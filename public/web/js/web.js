@@ -5,10 +5,12 @@ $(document).ready(function () {
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true,
+        // adaptiveHeight: true,
+        rows: 0,
         fade: true,
         autoplay: true,
         autoplaySpeed: 5000,
+        dots: false,
         responsive: [
             {
                 breakpoint: 1024,
@@ -16,21 +18,23 @@ $(document).ready(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: false,
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false,
                 }
             }]
     });
